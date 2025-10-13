@@ -14,13 +14,13 @@ And yet, taken together, they form something far greater than history — a patt
 
 Those who attempt to order the Chronicles often fail, for they resist order. They do not begin; they emerge. They do not end; but fade.
 
-Whether these writings came from mortal hand or from something beyond is uncertain. What is certain is this: through them, one may glimpse the former glory of Aurelia.
+Whether these writings came from mortal hand or from something beyond is uncertain. What is certain is this: through them, one may glimpse at the former glory of Aurelia.
 
 The Chronicles are the story of common people — and though common, much is revealed:
 
 > The Cartographer measured the lands and called them whole.  
 > The Wanderer named the plains his home, ever seeking adventure.  
-> The Noble wrote of former glory, of empires lost, of unspeakable war. – Poem dating to the 5nd century, author Unknown
+> The Noble wrote of former glory, of empires lost, of unspeakable war. – Poem dating to the 5th century, author Unknown
 
 These days, Aurelia endures — but dimly. The golden age is long lost. What remains is fragmented, fractured; cold, sinful men, corrupters of pure light, now walk its halls.
 
