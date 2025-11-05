@@ -9,7 +9,7 @@ layout: default
       {{ page.date | date: "%B %d, %Y" }} |
       Tags: 
       {% for tag in page.tags %}
-        <a href="/tags/{{ tag | slugify }}/" class="tag">{{ tag }}</a>{% unless forloop.last %}, {% endunless %}
+        <a href="/tags/" class="tag">{{ tag }}</a>{% unless forloop.last %}, {% endunless %}
       {% endfor %}
     </p>
   </header>

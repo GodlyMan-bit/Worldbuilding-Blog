@@ -1,0 +1,32 @@
+---
+layout: default
+title: Articles
+permalink: /articles/
+---
+
+<section class="content-card-articles">
+  <h1>{{ page.title }}</h1>
+
+  <div class="articles-grid">
+    {% for post in site.posts %}
+      <article class="article-card">
+        <h2><a href="{{ post.url | relative_url }}">{{ post.title }}</a></h2>
+
+        <p class="article-meta">
+          {{ post.date | date: "%B %d, %Y" }}
+          {% if post.tags %}
+            <span class="article-tags">
+              {% for tag in post.tags %}
+                <a href="{{ '/tags/#' | append: tag | relative_url }}">#{{ tag }}</a>
+              {% endfor %}
+            </span>
+          {% endif %}
+        </p>
+
+        {% if post.excerpt %}
+          <p class="article-excerpt">{{ post.excerpt | strip_html | truncate: 160 }}</p>
+        {% endif %}
+      </article>
+    {% endfor %}
+  </div>
+</section>

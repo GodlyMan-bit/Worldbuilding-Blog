@@ -270,11 +270,147 @@ body {
   font-size: 0.8rem;
 }
 
+/* Tags Content Styling*/
+.content-card-tags {
+  background: #faf9f6;
+  border: 1px solid #ddd;
+  border-radius: 12px;
+  padding: 2rem;
+  margin: 2.5rem auto;
+  max-width: 900px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05);
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+/* Add hover effect (optional, looks nice for cards) */
+.content-card-tags:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.08);
+}
+
+/* Header (e.g., the tag name) */
+.content-card-tags h2 {
+  font-size: 1.4rem;
+  font-weight: 600;
+  margin-bottom: 1rem;
+  border-bottom: 1px solid #e0e0e0;
+  padding-bottom: 0.5rem;
+}
+
+/* Tag list — aligns to the right */
+.tags-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-start; /* <-- aligns tags right */
+  gap: 0.5rem;
+}
+
+.tags-list li{
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+/* Individual tag styling */
+.tags-list a {
+  background-color: #eae6df;
+  color: #333;
+  text-decoration: none;
+  padding: 0.4rem 0.8rem;
+  border-radius: 8px;
+  font-size: 0.9rem;
+  transition: background-color 0.2s ease, color 0.2s ease;
+}
+
+.tags-list a:hover {
+  background-color: #d8cfc3;
+  color: #111;
+}
+
 /* Footer*/
 footer {
   text-align: center;
   color: #555;
   padding: 1rem 0;
+}
+
+/* Articles Section */
+.content-card-articles {
+  background: #faf9f6;
+  border: 1px solid #ddd;
+  border-radius: 12px;
+  padding: 2rem;
+  margin: 2.5rem auto;
+  max-width: 900px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05);
+}
+
+/* Grid layout for all article cards */
+.articles-grid {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+}
+
+/* Each article preview card */
+.article-card {
+  background: #fff;
+  border: 1px solid #e5e5e5;
+  border-radius: 10px;
+  padding: 1.5rem;
+  box-shadow: 0 1px 3px rgba(0,0,0,0.04);
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.article-card:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 4px 12px rgba(0,0,0,0.08);
+}
+
+/* Article title */
+.article-card h2 {
+  margin-top: 0;
+  margin-bottom: 0.5rem;
+  font-size: 1.4rem;
+  font-weight: 600;
+}
+
+.article-card h2 a {
+  text-decoration: none;
+  color: #222;
+}
+
+.article-card h2 a:hover {
+  color: #555;
+}
+
+/* Metadata (date + tags) */
+.article-meta {
+  font-size: 0.9rem;
+  color: #666;
+  margin-bottom: 0.8rem;
+}
+
+/* Tag links inside article metadata */
+.article-tags a {
+  background-color: #eae6df;
+  color: #333;
+  text-decoration: none;
+  margin-left: 0.3rem;
+  padding: 0.2rem 0.5rem;
+  border-radius: 6px;
+  font-size: 0.8rem;
+  transition: background-color 0.2s ease;
+}
+
+.article-tags a:hover {
+  background-color: #d8cfc3;
+}
+
+/* Excerpt text */
+.article-excerpt {
+  font-size: 1rem;
+  color: #333;
+  line-height: 1.5;
 }
 
 /*Markdown Styling*/
