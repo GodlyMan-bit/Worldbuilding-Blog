@@ -18,9 +18,9 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 
-title: The Aurelian Chronicles
+title: Epistulae Sub Cruce
 author: Jude Krusemark
-description: A blog for the fictional universe called Aurelia.
+description: A blog for the writings of Jude Krusemark
 baseurl: "" # leave empty for local use
 url: ""     # fill with your GitHub Pages URL later
 
